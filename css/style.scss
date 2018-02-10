@@ -173,9 +173,10 @@ header{
                       
     background-image: url("../images/top/cover@2x.jpg");
                   }
+    
                   
 @media (min-width:551px){
-    
+    background-image: url("../images/top/cover.jpg");
     text-align: left;
     height:420px;
     padding:0;
@@ -534,12 +535,12 @@ h1{
              
               @media (min-width: 550px){
                     .three_columns {
-                        width: 22%;}
+                        width: 22%;
+                    }
               }
     }
     .pc_sidemenu{
-                         display: none;
-                         
+
                       h3{
                            color: #42b9d0;
                            font-size: 14px;
@@ -565,14 +566,20 @@ h1{
                             @media screen and (-webkit-min-device-pixel-ratio: 2), 
                                        (min-resolution: 2dppx) {
                                         background-image: url(../images/top/side_arrow@2x.png);
-                                }
-                                a{
-                                color: #339fd1;
-                                text-decoration: none;
-                                }
-                          }
-                          //li
-                 }
+                                    }
+                                    a{
+                                    color: #339fd1;
+                                    text-decoration: none;
+                                    }
+                                      }
+                                      //li
+                                     
+                                      }
+                                       @media (max-width: 550px){
+                                  .pc_sidemenu{
+                                    display:none;
+                                    }
+                                      }
              }
              //container
         }
